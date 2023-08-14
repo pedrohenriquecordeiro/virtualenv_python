@@ -37,7 +37,7 @@ nome_do_ambiente\Scripts\activate
 Após a ativação, você verá o nome do ambiente virtual no início do seu prompt de comando, indicando que você está trabalhando dentro desse ambiente.
 ![Terminal](https://raw.githubusercontent.com/pedrohenriquecordeiro/virtualenv_python/main/image_env.png "Terminal")
 
-No exemplo acima, criei e ativei um ambiente virtual chamado virtual_projeto_dask
+No exemplo acima, criei e ativei um ambiente virtual chamado virtual_projeto_dask.
 ___
 
 4. **Instalação de pacotes**: Com o ambiente virtual ativado, você pode usar o pip normalmente para instalar pacotes e bibliotecas Python específicos para o seu projeto. As `instalações serão feitas apenas dentro deste ambiente isolado`, não afetando o ambiente global do sistema.
