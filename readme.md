@@ -21,6 +21,10 @@ ___
 ```
 virtualenv nome_ambiente
 ```
+E no windows : 
+```
+python -m venv meu_env
+```
 Isso criará um diretório chamado `nome_ambiente` no seu diretório de projeto.
 
 ___
