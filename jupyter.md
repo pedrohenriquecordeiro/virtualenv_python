@@ -1,4 +1,5 @@
 Para usar o virtualenv em jupyter noteboos é necessário criar um novo kernel python.
+Para atualizar o kernel com novas libs : basta instalar a lib no virtualenv que o kernel atualiza o contexto.
 
 ### Windows
 Execute o powershell em mode Administrador e execute os seguinte comandos:
