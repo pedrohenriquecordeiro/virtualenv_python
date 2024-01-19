@@ -20,3 +20,4 @@ pip install ipykernel
 ```
 python -m ipykernel install --user --name=kernel-venv
 ```
+Apos isso, basta selecionar o kernel **kernel-venv** no notebook.
