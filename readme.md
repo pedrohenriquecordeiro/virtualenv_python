@@ -27,6 +27,15 @@ python -m venv nome_ambiente
 ```
 Isso criará um diretório chamado `nome_ambiente` no seu diretório de projeto.
 
+**Observação** : Se for necessario identificar qual versão do python a ser utilizanda no ambiente use os seguinte comandos : 
+```
+which python3.11  # path do python 3.12
+
+virtualenv -p /usr/bin/python3.11 env
+source env/bin/activate # unix
+env\Scripts\activate    # windows
+```
+
 ___
 3. **Ativação do ambiente virtual**: Após criar o ambiente virtual, você precisa ativá-lo. O comando para isso varia de acordo com o sistema operacional:
 
