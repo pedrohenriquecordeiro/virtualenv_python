@@ -48,7 +48,7 @@ No exemplo acima, criei e ativei um ambiente virtual chamado virtual_projeto_das
 
 **Observação** : Se for necessario identificar qual versão do python a ser utilizanda no ambiente use os seguinte comandos : 
 ```
-which python3.11  # path do python 3.12
+which python3.11  # path do python 3.11
 
 virtualenv -p /usr/bin/python3.11 env
 source env/bin/activate # unix
