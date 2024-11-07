@@ -41,5 +41,5 @@ jupyter kernelspec list
 ```
 Para remover o kernel use:
 ```
-jupyter kernelspec uninstall kernel-venv
+jupyter kernelspec remove kernel-venv
 ```
