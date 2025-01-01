@@ -25,11 +25,12 @@ Apos isso, basta reiniciar o jupyter e/ou vcscode e selecionar o kernel **kernel
 
 ### Linux
 ```
-pip install virtualenv -y &&
+pip install virtualenv &&
 virtualenv venv &&
 source venv/bin/activate &&
 pip install jupyter &&
-pip install ipython && pip install ipykernel &&
+pip install ipython && 
+pip install ipykernel &&
 pip install -r requirements.txt &&
 ipython kernel install --user --name=kernel-venv &&
 python -m ipykernel install --user --name=kernel-venv 
